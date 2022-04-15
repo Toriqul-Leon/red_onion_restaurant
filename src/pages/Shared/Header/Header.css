@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  margin-left: 50px;
+  justify-content: space-between;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+}
+.header div {
+  display: block;
+  margin-right: 10px;
+  padding: 0 10px;
+}
+
+.main-btn button {
+  color: #ffffff;
+  padding: 7px 15px;
+  background-color: #f91b46;
+  border-radius: 15px;
+  border: none;
+}
